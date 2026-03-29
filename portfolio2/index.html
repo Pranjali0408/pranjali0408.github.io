@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranjali Chaudhari — Data Scientist & AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header id="header">
+    <nav class="nav-inner">
+     <a class="logo" href="#home">
+  <img src="ChatGPT Image Mar 29, 2026, 11_35_41 AM.png" alt="Pranjali Logo">
+</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-hire" href="mailto:pranjalichaudhari0408@gmail.com">
+        <i class="fas fa-paper-plane"></i> Let's Talk
+      </a>
+      <button class="burger" id="burger" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+
+      <!-- LEFT -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">
+          <span class="dot"></span> Available for full-time roles
+        </p>
+        <h1 class="hero-heading">
+          Hi, I'm<br>
+          <em>Pranjali</em><br>
+          Chaudhari.
+        </h1>
+        <p class="hero-role" id="roleText">Data Scientist & AI/ML Engineer</p>
+        <p class="hero-bio">
+          M.Tech Data Science student at MMCOE, Pune with hands-on experience in building
+          ML pipelines, LLM systems, and deep learning models. I write clean Python,
+          ask sharp questions about data, and care about making AI actually work in the real world.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-main">See My Work</a>
+          <a href="#contact" class="btn-sec">Get In Touch</a>
+        </div>
+        <div class="hero-chips">
+          <span class="chip"><i class="fas fa-map-marker-alt"></i> Pune, India</span>
+          <span class="chip"><i class="fas fa-graduation-cap"></i> CGPA 8.61 / 10</span>
+          <span class="chip"><i class="fas fa-file-alt"></i> 2 Published Papers</span>
+        </div>
+      </div>
+
+      <!-- RIGHT: PHOTO -->
+      <div class="hero-photo">
+        <div class="photo-card">
+          <!--
+            TO ADD YOUR PHOTO:
+            Replace the block below with:
+            <img src="photo.png" alt="Pranjali Chaudhari" />
+          -->
+          
+          <img src="PassportPhotograph (1).png" alt="Pranjali Chaudhari" />
+          <div class="photo-card">
+ 
+</div>
+        </div>
+        <div class="photo-accent"></div>
+        <div class="photo-tag t1"><i class="fab fa-python"></i> Python</div>
+        <div class="photo-tag t2"><i class="fas fa-brain"></i> ML / AI</div>
+      </div>
+
+    </div>
+
+    <!-- STAT ROW -->
+    <div class="stat-row">
+      <div class="stat-item">
+        <strong>8.61</strong><span>M.Tech CGPA</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <strong>4+</strong><span>ML Projects</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <strong>3 mo.</strong><span>Industry Internship</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <strong>2</strong><span>Research Papers</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-heading">I turn data into<br><em>decisions.</em></h2>
+          <p>
+            I'm a final-year M.Tech Data Science student who came from a Mechanical Engineering background
+            — which means I approach data problems like engineering problems: understand the system,
+            find the failure point, fix it.
+          </p>
+          <p>
+            At <strong>DATASMITH AI Solutions</strong>, I built production data pipelines and
+            supported ML model development on real business datasets. That experience taught me
+            the difference between a model that scores well on paper and one that
+            actually performs under messy, real-world conditions.
+          </p>
+          <p>
+            My current work spans <strong>LLM security</strong> — evaluating how adversarial attacks
+            break instruction-tuned models and building defenses — and <strong>medical imaging AI</strong>,
+            applying explainable deep learning to cervical cancer detection.
+          </p>
+          <p>
+            I'm looking for roles in <strong>AI/ML Engineering, Data Science,</strong> or
+            <strong>Python Development</strong> where I can ship useful things, work on hard problems,
+            and keep growing.
+          </p>
+        </div>
+        <div class="about-right">
+          <div class="info-block">
+            <div class="info-row">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:pranjalichaudhari0408@gmail.com">pranjalichaudhari0408@gmail.com</a>
+            </div>
+            <div class="info-row">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://linkedin.com/in/pranjali-chaudhari" target="_blank">linkedin.com/in/pranjali-chaudhari</a>
+            </div>
+            <div class="info-row">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/Pranjali0408" target="_blank">github.com/Pranjali0408</a>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-phone"></i>
+              <span>+91 77560 68761</span>
+            </div>
+            <div class="info-row">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Pune, Maharashtra, India</span>
+            </div>
+          </div>
+          <div class="cert-block">
+            <p class="cert-title">Certifications</p>
+            <div class="cert-list">
+              <div class="cert-row"><i class="fas fa-check-circle"></i> Generative AI Fundamentals — Databricks</div>
+              <div class="cert-row"><i class="fas fa-check-circle"></i> Python for Data Science & ML — Udemy</div>
+              <div class="cert-row"><i class="fas fa-check-circle"></i> Python for Everybody — Coursera</div>
+              <div class="cert-row"><i class="fas fa-check-circle"></i> Full Stack Web Dev Bootcamp — Udemy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section bg-alt">
+    <div class="wrap">
+      <div class="section-label">Technical Skills</div>
+      <h2 class="section-heading">What I bring<br>to the <em>table</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-delay="0">
+          <div class="sk-icon"><i class="fas fa-code"></i></div>
+          <h3>Languages</h3>
+          <div class="sk-tags">
+            <span>Python</span><span>SQL</span><span>Java</span><span>JavaScript</span>
+          </div>
+          <p class="sk-note">Python is my primary tool — from data wrangling to model training to scripting experiments.</p>
+        </div>
+
+        <div class="skill-card" data-delay="1">
+          <div class="sk-icon"><i class="fas fa-brain"></i></div>
+          <h3>Machine Learning</h3>
+          <div class="sk-tags">
+            <span>Scikit-learn</span><span>XGBoost</span><span>SVM</span>
+            <span>Feature Engineering</span><span>SMOTE</span><span>Cross-validation</span>
+          </div>
+          <p class="sk-note">Used in industry pipelines at DATASMITH and across cervical cancer risk prediction projects.</p>
+        </div>
+
+        <div class="skill-card" data-delay="2">
+          <div class="sk-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>Deep Learning</h3>
+          <div class="sk-tags">
+            <span>PyTorch</span><span>CNN</span><span>ResNet</span>
+            <span>Transfer Learning</span><span>Grad-CAM</span><span>XAI</span>
+          </div>
+          <p class="sk-note">Built and fine-tuned CNNs for medical image classification; applied explainability techniques.</p>
+        </div>
+
+        <div class="skill-card" data-delay="3">
+          <div class="sk-icon"><i class="fas fa-robot"></i></div>
+          <h3>LLMs & NLP</h3>
+          <div class="sk-tags">
+            <span>LLMs</span><span>RAG</span><span>Prompt Engineering</span>
+            <span>HuggingFace</span><span>FLAN-T5</span><span>Transformers</span>
+          </div>
+          <p class="sk-note">Built a RAG-based domain chatbot; evaluated LLM robustness under adversarial prompt attacks.</p>
+        </div>
+
+        <div class="skill-card" data-delay="4">
+          <div class="sk-icon"><i class="fas fa-database"></i></div>
+          <h3>Data & Analytics</h3>
+          <div class="sk-tags">
+            <span>Pandas</span><span>NumPy</span><span>EDA</span>
+            <span>Matplotlib</span><span>Power BI</span><span>SQL</span>
+          </div>
+          <p class="sk-note">End-to-end data work from raw CSV cleaning to interactive Power BI dashboards tracking KPIs.</p>
+        </div>
+
+        <div class="skill-card" data-delay="5">
+          <div class="sk-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools & Practices</h3>
+          <div class="sk-tags">
+            <span>Git</span><span>Jupyter</span><span>Google Colab</span>
+            <span>VS Code</span><span>Federated Learning</span><span>AI Safety</span>
+          </div>
+          <p class="sk-note">Comfortable in collaborative dev workflows, reproducible experiment setups, and distributed ML.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="wrap">
+      <div class="section-label">Experience</div>
+      <h2 class="section-heading">Where I've<br><em>worked</em></h2>
+      <div class="exp-block">
+        <div class="exp-left">
+          <div class="exp-period">Aug 2025 – Nov 2025</div>
+          <div class="exp-type">Full-time Internship</div>
+        </div>
+        <div class="exp-right">
+          <h3 class="exp-title">AI / Data Science Intern</h3>
+          <p class="exp-company"><i class="fas fa-building"></i> DATASMITH AI Solutions — Pune</p>
+          <ul class="exp-list">
+            <li>
+              Built <strong>end-to-end data preprocessing and cleaning pipelines</strong> for structured real-world datasets —
+              handled missing values, format inconsistencies, and outlier treatment to ensure reliable downstream model inputs.
+            </li>
+            <li>
+              Supported <strong>ML model training and evaluation workflows</strong>: cross-validation, hyperparameter search,
+              and benchmarking classification and regression models across different business datasets.
+            </li>
+            <li>
+              Applied <strong>advanced feature engineering</strong> using Pandas and NumPy — polynomial features,
+              interaction terms, and mutual-information-based selection — improving precision, recall, and F1 across tasks.
+            </li>
+            <li>
+              Maintained clean, version-controlled Python code in Git, wrote documentation, and delivered findings
+              through clear visualisations and summary reports for stakeholders.
+            </li>
+          </ul>
+          <div class="exp-stack">
+            <span>Python</span><span>Pandas</span><span>NumPy</span>
+            <span>Scikit-learn</span><span>Feature Engineering</span>
+            <span>ML Pipelines</span><span>Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section bg-alt">
+    <div class="wrap">
+      <div class="section-label">Projects</div>
+      <h2 class="section-heading">Things I've<br><em>built</em></h2>
+
+      <div class="proj-grid">
+
+        <!-- CHATBOT - Featured -->
+        <div class="proj-card wide" data-delay="0">
+          <div class="proj-header">
+            <div class="proj-icon icon-blue"><i class="fas fa-comments"></i></div>
+            <span class="proj-year">2025</span>
+          </div>
+          <h3>AI Chatbot — Bhagavad Gita & Chanakya Niti</h3>
+          <p>
+            Built a domain-specific conversational AI using <strong>Retrieval-Augmented Generation (RAG)</strong>.
+            Rather than relying on raw LLM memory — which hallucinates freely on niche knowledge —
+            this system embeds philosophical texts into a vector store and retrieves relevant passages before generating responses.
+            The result: accurate, grounded answers that stay true to the source material across all 18 chapters of the Gita and Chanakya's key texts.
+            Implemented chunking strategy, similarity search tuning, and prompt templates to preserve authentic meaning in responses.
+          </p>
+          <div class="proj-stack">
+            <span>Python</span><span>LLMs</span><span>RAG</span>
+            <span>Prompt Engineering</span><span>Vector DB</span><span>HuggingFace</span>
+          </div>
+        </div>
+
+        <!-- Federated Learning -->
+        <div class="proj-card" data-delay="1">
+          <div class="proj-header">
+            <div class="proj-icon icon-green"><i class="fas fa-network-wired"></i></div>
+            <span class="proj-year">2026</span>
+          </div>
+          <h3>Privacy-Preserving Crop Disease Prediction</h3>
+          <p>
+            Designed a <strong>federated learning</strong> workflow for agricultural disease prediction —
+            each farm node trains locally, no raw data ever centralised.
+            Compared FedAvg vs FedProx convergence under non-IID conditions,
+            studied communication overhead, and implemented differential privacy mechanisms
+            to quantify the accuracy–privacy trade-off.
+          </p>
+          <div class="proj-stack">
+            <span>Federated Learning</span><span>PyTorch</span>
+            <span>Differential Privacy</span><span>FedAvg</span><span>Python</span>
+          </div>
+        </div>
+
+        <!-- Cervical Cancer -->
+        <div class="proj-card" data-delay="2">
+          <div class="proj-header">
+            <div class="proj-icon icon-rose"><i class="fas fa-microscope"></i></div>
+            <span class="proj-year">2025–Present</span>
+          </div>
+          <h3>Cervical Cancer Detection — Multimodal DL</h3>
+          <p>
+            CNN-based classifier for cervical cell images (SIPaKMeD dataset) fused with
+            clinical risk features. Applied <strong>Grad-CAM</strong> and LIME to generate
+            interpretable saliency maps that highlight which image regions drove the model's decision —
+            critical for medical AI adoption. Review paper accepted at <strong>ETFI 2026 (IEEE)</strong>.
+          </p>
+          <div class="proj-stack">
+            <span>PyTorch</span><span>CNN</span><span>Grad-CAM</span>
+            <span>XAI</span><span>Transfer Learning</span>
+          </div>
+        </div>
+
+        <!-- LLM Security -->
+        <div class="proj-card" data-delay="3">
+          <div class="proj-header">
+            <div class="proj-icon icon-amber"><i class="fas fa-shield-alt"></i></div>
+            <span class="proj-year">2025–2026</span>
+          </div>
+          <h3>LLM Security — Adversarial Attack Defense</h3>
+          <p>
+            Evaluated FLAN-T5 and Phi-3 Mini under 120+ adversarial prompts.
+            Built a <strong>4-layer adaptive defense framework (ARML-Defense)</strong>
+            combining lexical filtering, semantic embeddings, a risk scoring formula
+            R = αK + βS + γC, and output validation. Achieved <strong>93.3% defense accuracy</strong>
+            and 92.3% usability preservation vs 23.1% for hard restriction.
+            Two papers accepted / under review.
+          </p>
+          <div class="proj-stack">
+            <span>FLAN-T5</span><span>Phi-3 Mini</span><span>AI Safety</span>
+            <span>NLP</span><span>HuggingFace</span><span>Python</span>
+          </div>
+        </div>
+
+        <!-- Power BI -->
+        <div class="proj-card wide" data-delay="4">
+          <div class="proj-header">
+            <div class="proj-icon icon-blue"><i class="fas fa-chart-bar"></i></div>
+            <span class="proj-year">2023</span>
+          </div>
+          <h3>Packaging Industry — Data Analysis & KPI Dashboard</h3>
+          <p>
+            Cleaned production datasets from a packaging company — resolved inconsistent formats, imputed missing values,
+            standardised KPI definitions across departments. Built <strong>interactive Power BI dashboards</strong>
+            tracking production throughput, defect rates, yield loss, and machine downtime patterns.
+            Reduced manual reporting time significantly by enabling real-time visibility for operations teams.
+            This project sharpened my ability to translate messy operational data into clean, decision-ready visuals.
+          </p>
+          <div class="proj-stack">
+            <span>Power BI</span><span>Pandas</span><span>EDA</span>
+            <span>Data Visualisation</span><span>KPI Design</span><span>Excel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section">
+    <div class="wrap">
+      <div class="section-label">Research & Publications</div>
+      <h2 class="section-heading">Published<br><em>work</em></h2>
+      <div class="pub-grid">
+
+        <div class="pub-card">
+          <div class="pub-meta-top">
+            <span class="pub-status published">Accepted — Camera Ready</span>
+            <span class="pub-index">Springer LNCS → Web of Science</span>
+          </div>
+          <h3>Evaluating Security and Robustness of Instruction-Tuned LLMs Against Adversarial Prompt Attacks</h3>
+          <p class="pub-venue">ICAIS 2026 — NMIMS University, Indore</p>
+          <p class="pub-summary">
+            120-prompt controlled evaluation across 4 attack types on FLAN-T5-base.
+            Lightweight lexical sanitization reduced adversarial attack success by <strong>32.14%</strong>
+            (23.33% → 15.83%) without model retraining.
+          </p>
+        </div>
+
+        <div class="pub-card">
+          <div class="pub-meta-top">
+            <span class="pub-status pending">Decision Pending</span>
+          </div>
+          <h3>Adaptive Risk-Aware Multi-Layer Defense Framework for Securing LLMs Against Adversarial Prompt Injection</h3>
+          <p class="pub-venue">Conference — Jamia Millia Islamia, New Delhi</p>
+          <p class="pub-summary">
+            ARML-Defense: 4-layer adaptive framework with R = αK + βS + γC scoring.
+            <strong>93.3% defense accuracy</strong>, F1 = 0.94, 7.7% false positive rate
+            on FLAN-T5 and Phi-3 Mini. 26.6-point improvement over Hard Restriction.
+          </p>
+        </div>
+
+        <div class="pub-card">
+          <div class="pub-meta-top">
+            <span class="pub-status published">Accepted & Presented</span>
+            <span class="pub-index">IEEE Xplore → Scopus + Web of Science</span>
+          </div>
+          <h3>A Comprehensive Review on Multimodal and Explainable Deep Learning for Cervical Cancer Detection</h3>
+          <p class="pub-venue">ETFI 2026 — DESPU, Pune (IEEE Proceedings)</p>
+          <p class="pub-summary">
+            Systematic review of 20+ IEEE papers on CNN architectures, hybrid ML-DL models,
+            Vision Transformers, and XAI (Grad-CAM, SHAP, LIME) for cervical cancer screening.
+            Identifies key research gaps in multimodal integration and interpretability benchmarking.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="index-note">
+        <i class="fas fa-info-circle"></i>
+        <span>
+          <strong>ICAIS 2026 (Springer LNCS)</strong> → Published in Springer LNCS (Scopus Indexed), with potential inclusion in Web of Science CPCI. &emsp;
+          <strong>ETFI 2026 (IEEE)</strong> → IEEE Xplore, Scopus, and Web of Science (Clarivate — ESCI/SCI), subject to conference-level inclusion. &emsp;
+          <strong>Jamia Millia (ARML)</strong> → Decision awaited.
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section bg-alt">
+    <div class="wrap">
+      <div class="section-label">Education</div>
+      <h2 class="section-heading">Academic<br><em>background</em></h2>
+      <div class="edu-list">
+
+        <div class="edu-item">
+          <div class="edu-line"></div>
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <div class="edu-period">2024 – Present</div>
+            <h3>M.Tech in Data Science (Information Technology)</h3>
+            <p class="edu-school">Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune</p>
+            <span class="edu-grade">CGPA: 9.56 / 10</span>
+            <p class="edu-note">Focus: ML, Deep Learning, LLM Security, Federated Learning, Research Methodology. Published 2 conference papers during this program.</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-line"></div>
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <div class="edu-period">2019 – 2023</div>
+            <h3>B.Tech in Mechanical Engineering</h3>
+            <p class="edu-school">Vishwakarma Institute of Information Technology (VIIT), Pune</p>
+            <span class="edu-grade">CGPA: 8.51 / 10</span>
+            <p class="edu-note">Strong analytical and systems-thinking foundation. Transitioned to Data Science leveraging engineering problem-solving skills.</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-line short"></div>
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <div class="edu-period">2019</div>
+            <h3>HSC (Class XII)</h3>
+            <p class="edu-school">Maharashtra State Board</p>
+            <span class="edu-grade">84.92%</span>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <div class="edu-period">2017</div>
+            <h3>SSC (Class X)</h3>
+            <p class="edu-school">Maharashtra State Board</p>
+            <span class="edu-grade">93.20%</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Achievements -->
+      <div class="ach-row">
+        <div class="ach-card">
+          <i class="fas fa-newspaper"></i>
+          <p><strong>2 International Papers</strong><br>ICAIS 2026 (Springer) + ETFI 2026 (IEEE)</p>
+        </div>
+        <div class="ach-card">
+          <i class="fas fa-lock"></i>
+          <p><strong>98 / 100 in Cyber Security</strong><br>Academic coursework score</p>
+        </div>
+        <div class="ach-card">
+          <i class="fas fa-shield-alt"></i>
+          <p><strong>32.14% Attack Reduction</strong><br>Published, peer-reviewed result</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <div class="section-label">Contact</div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2 class="section-heading">Open to<br><em>opportunities</em></h2>
+          <p>
+            I'm actively looking for <strong>AI/ML Engineering, Data Science,</strong> and
+            <strong>Python Development</strong> roles. I'm also happy to discuss internships,
+            research collaborations, or just an interesting problem.
+          </p>
+          <p>Drop me an email or connect on LinkedIn — I typically reply within 24 hours.</p>
+          <div class="contact-links">
+            <a href="mailto:pranjalichaudhari0408@gmail.com" class="clink">
+              <i class="fas fa-envelope"></i> pranjalichaudhari0408@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/pranjali-chaudhari" target="_blank" class="clink">
+              <i class="fab fa-linkedin"></i> linkedin.com/in/pranjali-chaudhari
+            </a>
+            <a href="https://github.com/Pranjali0408" target="_blank" class="clink">
+              <i class="fab fa-github"></i> github.com/Pranjali0408
+            </a>
+            <a href="tel:+917756068761" class="clink">
+              <i class="fas fa-phone"></i> +91 77560 68761
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" onsubmit="submitForm(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" placeholder="e.g. Job opportunity / Collaboration" />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea placeholder="Hi Pranjali, I'd like to discuss..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="form-btn" id="formBtn">
+              Send Message <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap footer-inner">
+      <p class="footer-copy">© 2026 Pranjali Chaudhari &nbsp;·&nbsp; M.Tech Data Science, MMCOE Pune</p>
+      <div class="footer-social">
+        <a href="https://linkedin.com/in/pranjali-chaudhari" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Pranjali0408" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:pranjalichaudhari0408@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="topBtn" onclick="scrollTop()" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
