@@ -1,3 +1,220 @@
-<a href="./portfolio1/">Portfolio 1</a>
-<a href="./portfolio2/">Portfolio 2</a>
-<a href="./portfolio3/">Portfolio 3</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pranjali Portfolio</title>
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  /* Profile */
+  .profile {
+    margin-bottom: 20px;
+  }
+
+  .profile img {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px rgba(255,255,255,0.4);
+  }
+
+  .intro h1 {
+    font-size: 2.8rem;
+    margin-top: 15px;
+  }
+
+  .tagline {
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.9;
+  }
+
+  .about {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+
+  /* Cards */
+  .cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+
+  .card h3 {
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  .card:hover {
+    background: white;
+    color: #333;
+    transform: translateY(-10px) scale(1.05);
+  }
+
+  /* Buttons */
+  .buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .view {
+    background: white;
+    color: #333;
+  }
+
+  .view:hover {
+    background: #ddd;
+    transform: scale(1.05);
+  }
+
+  .download {
+    background: #00c9a7;
+    color: white;
+  }
+
+  .download:hover {
+    background: #00a58a;
+    transform: scale(1.05);
+  }
+
+  /* Social Icons */
+  .social {
+    margin-top: 40px;
+  }
+
+  .social a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+
+  .social a:hover {
+    color: #ffd700;
+    transform: scale(1.2);
+  }
+
+  /* Animation */
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Profile Image -->
+  <div class="profile">
+   
+    <img src="pranjali logo.png" alt="Profile">
+  </div>
+
+  <!-- Intro -->
+  <div class="intro">
+    <h1>Hey 👋 I'm Pranjali Chaudhari</h1>
+    <p class="tagline">"Turning curiosity into real-world solutions 🚀"</p>
+
+    <div class="about">
+      Aspiring AI Engineer with strong skills in Python, Machine Learning and Data Analytics.
+      Passionate about building intelligent systems and solving real-world problems.
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div class="cards">
+
+    <a href="./portfolio1/" class="card">
+      <h3>🌱 Foundation Build</h3>
+      <p>Strong fundamentals in HTML, CSS and development basics.</p>
+    </a>
+
+    <a href="./portfolio2/" class="card">
+      <h3>🚀 Skill Expansion</h3>
+      <p>Intermediate projects with better UI and logic.</p>
+    </a>
+
+    <a href="./portfolio3/" class="card">
+      <h3>🔥 Project Mastery</h3>
+      <p>Advanced projects solving real-world problems.</p>
+    </a>
+
+  </div>
+
+  <!-- Resume Buttons -->
+  <div class="buttons">
+    <a href="resume.pdf" target="_blank" class="btn view">
+      <i class="fas fa-file-alt"></i> View Resume
+    </a>
+
+    <a href="Pranjali_Resume_Final.pdf" download class="btn download">
+      <i class="fas fa-download"></i> Download Resume
+    </a>
+  </div>
+
+  <!-- Social Links -->
+  <div class="social">
+    <a href="https://linkedin.com/in/pranjali-a-chaudhari"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/Pranjali0408"><i class="fab fa-github"></i></a>
+  </div>
+
+</div>
+
+</body>
+</html>
